@@ -1,8 +1,8 @@
-from keras.models import Model
-from keras.layers import Input, Activation, Lambda
-from keras.layers.convolutional import Conv2D
-from keras.layers.pooling import MaxPooling2D
-from keras.layers.merge import Concatenate
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Activation, Lambda
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import MaxPooling2D
+from tensorflow.keras.layers import Concatenate
 
 
 def conv(x, nf, ks, name):
